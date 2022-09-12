@@ -15,7 +15,8 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao.Models
         const string path = "log/usuarios.csv";
         public static void Write_CSV(Usuario user)
         {
-
+            DateTime now = DateTime.Now;
+            
         }
     }
 }
