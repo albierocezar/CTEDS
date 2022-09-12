@@ -29,6 +29,7 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao
                         if (email == Usuario.email_padrao && senha == Usuario.senha_padrao) //Validou
                         {
                             Usuario user = new Usuario(nome);
+                            Base.Write_CSV(user);
                         }
                         else //erro
                         {

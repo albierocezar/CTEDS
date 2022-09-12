@@ -8,8 +8,8 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao.Models
 {
     internal class Usuario
     {
-        public static readonly string email_padrao = "admin@email.com";
-        public static readonly string senha_padrao = "admin123";
+        static readonly string email_padrao = "admin@email.com";
+        static readonly string senha_padrao = "admin123";
         readonly string nome;
         readonly HashCode id;
         

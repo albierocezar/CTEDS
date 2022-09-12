@@ -1,0 +1,5 @@
+C:\Users\cteds_13\Desktop\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\obj\Debug\net6.0\JoaoPedroAlbieroCezar-d3-avaliacao.csproj.AssemblyReference.cache
+C:\Users\cteds_13\Desktop\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\obj\Debug\net6.0\JoaoPedroAlbieroCezar-d3-avaliacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cteds_13\Desktop\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\obj\Debug\net6.0\JoaoPedroAlbieroCezar-d3-avaliacao.AssemblyInfoInputs.cache
+C:\Users\cteds_13\Desktop\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\obj\Debug\net6.0\JoaoPedroAlbieroCezar-d3-avaliacao.AssemblyInfo.cs
+C:\Users\cteds_13\Desktop\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\obj\Debug\net6.0\JoaoPedroAlbieroCezar-d3-avaliacao.csproj.CoreCompileInputs.cache
