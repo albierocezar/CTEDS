@@ -23,13 +23,36 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao
                         Console.Write("Email: ");
                         string email = Console.ReadLine();
 
-                        Console.Write("Senha");
+                        Console.Write("Senha: ");
                         string senha = Console.ReadLine();
 
                         if (email == Usuario.email_padrao && senha == Usuario.senha_padrao) //Validou
                         {
+                            Console.Clear(); //Limpa tela
+
+                            Console.WriteLine("Acesso realizado com sucesso!");
+
                             Usuario user = new Usuario(nome);
-                            Base.Write_CSV(user);
+                            Base.Write_txt(user);
+
+                            string escolha_2;
+                            Console.WriteLine("1 - Deslogar");
+                            Console.WriteLine("2 - Encerrar sistema");
+                            escolha_2 = Console.ReadLine();
+
+                            switch (escolha_2)
+                            {
+                                case "1":
+                                    escolha = string.Empty;
+                                    break;
+
+                                case "2":
+                                    escolha = "2";
+                                    break;
+
+                                default:
+                                    break;
+                            }
                         }
                         else //erro
                         {

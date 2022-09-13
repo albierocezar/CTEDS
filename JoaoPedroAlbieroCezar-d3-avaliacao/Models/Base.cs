@@ -48,7 +48,7 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao.Models
 
             DateTime now = DateTime.Now;
             string now_to_string = now.ToString("G", CultureInfo.GetCultureInfo("es-ES")); // dd/mm/yyyy h:m:s
-                                                                                           // 
+                                                                                           
             using (StreamWriter usuarios_CSV = new(path))
             {
                 usuarios_CSV.WriteLine($"Id: {user.id.ToString()}");
