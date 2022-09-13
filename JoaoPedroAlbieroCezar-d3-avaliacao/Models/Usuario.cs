@@ -11,12 +11,12 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao.Models
         public static readonly string email_padrao = "admin@email.com";
         public static readonly string senha_padrao = "admin123";
         public readonly string nome;
-        public readonly HashCode id;
+        public readonly Guid id;
         
         public Usuario(string nome)
         {
             this.nome = nome;
-            this.id = new HashCode();
+            this.id = Guid.NewGuid();
         }
 
 

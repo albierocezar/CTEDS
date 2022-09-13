@@ -44,17 +44,16 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao.Models
         /// <param name="user">usuario que será adicionado</param>
         public static void Write_txt(Usuario user)
         {
-            CreateFolderFile();
 
             DateTime now = DateTime.Now;
             string now_to_string = now.ToString("G", CultureInfo.GetCultureInfo("es-ES")); // dd/mm/yyyy h:m:s
                                                                                            
-            using (StreamWriter usuarios_CSV = new(path))
+            using (StreamWriter usuarios_CSV = new(path, append: true))
             {
-                usuarios_CSV.WriteLine($"Id: {user.id.ToString()}");
+                usuarios_CSV.WriteLine($"Id: {user.id}");
                 usuarios_CSV.WriteLine($"Nome: {user.nome}");
                 usuarios_CSV.WriteLine($"Data/Hora de acesso: {now_to_string}");
-
+                usuarios_CSV.WriteLine();
             }
         }
     }   
