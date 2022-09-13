@@ -9,7 +9,7 @@ using JoaoPedroAlbieroCezar_d3_avaliacao.Models;
 namespace JoaoPedroAlbieroCezar_d3_avaliacao.Repositories
 {
     /// <summary>
-    /// Repositorio responsável por manipular a entidade usuario, mexendo com a db e o arquivo de texto
+    /// Repositorio responsável por manipular a entidade usuario, mexendo com a db 
     /// </summary>
     internal class UsuarioRepository : IUsuario
     {

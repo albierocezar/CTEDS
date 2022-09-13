@@ -42,12 +42,13 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao.Models
         /// Escreve o id, nome e horario de acesso do usuário
         /// </summary>
         /// <param name="user">usuario que será adicionado</param>
-        public static void Write_txt(Usuario user)
+        public static void logou(Usuario user)
         {
+            CreateFolderFile();
 
             DateTime now = DateTime.Now;
             string now_to_string = now.ToString("G", CultureInfo.GetCultureInfo("es-ES")); // dd/mm/yyyy h:m:s
-                                                                                           
+
             using (StreamWriter usuarios_CSV = new(path, append: true))
             {
                 usuarios_CSV.WriteLine($"Id: {user.id}");
@@ -56,5 +57,20 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao.Models
                 usuarios_CSV.WriteLine();
             }
         }
-    }   
+
+        public static void deslogou(Usuario user)
+        {
+            DateTime now = DateTime.Now;
+            string now_to_string = now.ToString("G", CultureInfo.GetCultureInfo("es-ES")); // dd/mm/yyyy h:m:s
+
+            using (StreamWriter usuarios_CSV = new(path, append: true))
+            {
+                usuarios_CSV.WriteLine($"Id: {user.id}");
+                usuarios_CSV.WriteLine($"Nome: {user.nome}");
+                usuarios_CSV.WriteLine($"Data/Hora de saída: {now_to_string}");
+                usuarios_CSV.WriteLine();
+
+            }
+        }
+    }
 }

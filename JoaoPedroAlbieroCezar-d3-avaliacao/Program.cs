@@ -30,10 +30,10 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao
                         {
                             Console.Clear(); //Limpa tela
 
-                            Console.WriteLine("Acesso realizado com sucesso!");
-
                             Usuario user = new Usuario(nome);
-                            Base.Write_txt(user);
+                            Base.logou(user);
+
+                            Console.WriteLine("Logado com sucesso!");
 
                             string escolha_2;
                             Console.WriteLine("1 - Deslogar");
@@ -44,10 +44,14 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao
                             {
                                 case "1":
                                     escolha = string.Empty;
+                                    Base.deslogou(user);
+                                    Console.WriteLine("Deslogado com sucesso!");
                                     break;
 
                                 case "2":
                                     escolha = "2";
+                                    Base.deslogou(user);
+                                    Console.WriteLine("Deslogado com sucesso!");
                                     break;
 
                                 default:
@@ -56,6 +60,7 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao
                         }
                         else //erro
                         {
+                            Console.Clear();
                             Console.WriteLine("Email ou senha incorretos \n\tPor favor, tente novamente.");
                         }
                         break;

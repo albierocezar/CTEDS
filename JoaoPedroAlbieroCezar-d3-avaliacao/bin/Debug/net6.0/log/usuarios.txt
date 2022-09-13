@@ -1,9 +1,0 @@
-Id: f91ccf61-e344-4066-8ab4-909bcae6a542
-Nome: Ana
-Data/Hora de acesso: 13/9/2022 13:55:15
-Id: 74f3a994-bd27-4baa-93b1-edec42227440
-Nome: Jonas
-Data/Hora de acesso: 13/9/2022 14:01:24
-Id: 2725ddad-d68b-4212-a4a7-44dd84a8c75a
-Nome: Marislete
-Data/Hora de acesso: 13/9/2022 14:01:45
