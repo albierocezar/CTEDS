@@ -19,6 +19,18 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao.Models
             this.id = Guid.NewGuid();
         }
 
+        public Usuario(string id, string nome)
+        {
+            this.nome = nome;
+            this.id = Guid.Parse(id);
+            this.id = Guid.Parse(id);
+        }
+                    
+        public void ToString()
+        {
+            Console.WriteLine($"\tId: {id}");
+            Console.WriteLine($"Nome: {nome}");
+        }
 
     }
 }

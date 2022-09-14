@@ -1,4 +1,5 @@
 ﻿using JoaoPedroAlbieroCezar_d3_avaliacao.Models;
+using JoaoPedroAlbieroCezar_d3_avaliacao.Repositories;
 
 namespace JoaoPedroAlbieroCezar_d3_avaliacao
 {
@@ -9,6 +10,8 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao
             string escolha = string.Empty;
             do
             {
+                UsuarioRepository _user = new();
+
                 Console.WriteLine("Seja bem vindo ao sistema, em que podemos ajudar?");
                 Console.WriteLine("1 - Acessar");
                 Console.WriteLine("2 - Cancelar");
@@ -31,7 +34,9 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao
                             Console.Clear(); //Limpa tela
 
                             Usuario user = new Usuario(nome);
+
                             Base.logou(user);
+                            _user.Create_db(user);
 
                             Console.WriteLine("Logado com sucesso!");
 

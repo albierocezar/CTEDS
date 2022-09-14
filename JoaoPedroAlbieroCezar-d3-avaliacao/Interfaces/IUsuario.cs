@@ -11,7 +11,7 @@ namespace JoaoPedroAlbieroCezar_d3_avaliacao.Interfaces
     {   
         void Create_db(Usuario newUsuario);
 
-        List<Usuario> ReadAll_db();
+        void PrintAll();
 
         void Update_db(Usuario usuario);
 

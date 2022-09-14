@@ -18,3 +18,10 @@ C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avalia
 C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\obj\Debug\net6.0\JoaoPedroAlbieroCezar-d3-avaliacao.pdb
 C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\obj\Debug\net6.0\JoaoPedroAlbieroCezar-d3-avaliacao.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\obj\Debug\net6.0\ref\JoaoPedroAlbieroCezar-d3-avaliacao.dll
+C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\Facul\4o_Semestre\CTEDS\JoaoPedroAlbieroCezar-d3-avaliacao\JoaoPedroAlbieroCezar-d3-avaliacao\obj\Debug\net6.0\JoaoPedroAlbieroCezar-d3-avaliacao.csproj.CopyComplete
